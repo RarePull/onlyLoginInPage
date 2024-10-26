@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NFT Recommendation System</title>
+  </head>
+  <body>
+    <h1>Welcome to the NFT Recommendation System</h1>
+    <a href="{{ url_for('signup') }}">Sign Up</a> |
+    <a href="{{ url_for('login_page') }}">Log In</a>
+    <p>{{ get_flashed_messages()[0] }}</p>
+  </body>
+</html>
